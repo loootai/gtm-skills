@@ -21,6 +21,8 @@ For single data jobs (one email, one SERP, one company), install [loootai/looot-
 
 ## Skills
 
+**`/gtm <domain>` (Zeus):** one domain in, a GTM dossier and a city page of your market out, price first, capped so the default run fits in the $2 free credit. Company-level by default; people data only on a paid run with `--people`. Runs `npx looot-zeus`. See `skills/gtm`.
+
 Prices are the cheapest live provider in the public looot catalog on 2026-10-08 (`GET https://api.looot.ai/v1/catalog/overview?depth=jobs`, no key needed). Each skill tells the agent to quote the total and wait for a yes before it spends.
 
 | Skill | What it does | Typical cost |
